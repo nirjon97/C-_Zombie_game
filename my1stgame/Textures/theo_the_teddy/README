@@ -1,0 +1,27 @@
+Theo the Teddy-Bear
+and a journey into pixellands
+
+A cartoon model initially modelled to test and demonstrate the possibility of prerendered pixel-art sprites.
+It should not resemble any special character but is just a generic cartoon mammal.
+The model was modelled and rigged in MisfitModel 3D, a simple open source mesher.
+You may adjust it's pose in animation mode and save an animation sequence outside of animation mode.
+The spritify folder contains examples of sprite downscaling.
+The gimping.xcf file contains the steps in (invisible) layers necessary to create pixel-art'ish sprites from renderings.
+
+Things to consider when creating sprite models and bitmaps:
+- Small details may not be visible at the intended resolution.
+- Make modelproportions larger for parts that need detail=pixels (esp. head and eyes).
+- Choose a clear and largescale color scheme.
+- Keep lighting and reflections low if you intend a flatter non-rendered look.
+- Haven't tried ambient occlusion - may look better than directional lighting.
+- Use as much polygons as you want/can so you can reuse the model for advertising.
+- When adding outlines make them about as big as an upscaled pixel of your target-resolution would be.
+- There is a lot you may wish to tweak to your likings.
+- And remember: Garbage in => garbage out.
+
+The whole process - once you know your parameters - could be burned to scripts (eg for imagemagick) to automatically create sprites from renderings for your art-pipeline.
+
+
+CC-BY-SA Benjamin Pickhardt - hackcraft.de
+
+

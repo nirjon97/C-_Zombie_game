@@ -1,0 +1,39 @@
+#version 130
+//The fragment shader operates on each pixel in a given polygon
+
+//input the color from vertex shader-must have same name with the vertex 
+
+in vec4 fragmentColor;
+//stop interpulation
+//flat in vec4 fragmentColor;
+
+//take UV from vertex shader step
+in vec2 fragmentUV;
+
+//fragment position to change color by position of vertex 
+in vec2 fragmentPosition;
+
+//This is the 3 component float vector that gets outputed to the screen  for each pixel
+out vec4 color;
+
+//time uniform variable declaration- if it not use, GLSL will delete it automatically and may get error
+//uniform float time;
+//texture uniform variable declaration
+uniform sampler2D mySampler;
+
+void main(){
+  //Harcore the color base on time 
+  //color = fragmentColor +vec4((cos(time)+1.0)*0.5,
+							  //(cos(time+2)+1.0)*0.5,
+							  //(sin(time)+1.0)*0.5,
+							  //0.0);
+	//Hardcore the texture PNG				  
+	vec4 textureColor = texture(mySampler,fragmentUV);		
+    color = textureColor * fragmentColor;	
+  //Hardcore the color base on vertex position and time							  
+	/*color = vec4(fragmentColor.r * (cos(fragmentPosition.x+time)+1.0)*0.5,
+				 fragmentColor.g * (cos(fragmentPosition.y+time)+1.0)*0.5,
+				 fragmentColor.b * (cos(fragmentPosition.y*0.2+time)+1.0)*0.5,
+				 fragmentColor.a) * textureColor;*/						  
+  
+}

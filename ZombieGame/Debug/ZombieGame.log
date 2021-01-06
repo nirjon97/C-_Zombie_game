@@ -1,0 +1,18 @@
+﻿Build started 21-Jun-17 12:44:37 AM.
+     1>Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\ZombieGame\ZombieGame.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\ZombieGame.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib Bengine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\ZombieGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\ZombieGame.lib" /MACHINE:X86 Debug\Agent.obj
+         Debug\Bullet.obj
+         Debug\Gun.obj
+         Debug\Human.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MainGame.obj
+         Debug\Player.obj
+         Debug\Zombie.obj
+         ZombieGame.vcxproj -> C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\ZombieGame.exe
+     1>Done Building Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\ZombieGame\ZombieGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26

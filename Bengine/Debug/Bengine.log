@@ -1,0 +1,52 @@
+﻿Build started 21-Jun-17 12:44:12 AM.
+     1>Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Bengine\Bengine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bengine.cpp Camera2d.cpp ErrorMess.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp IOManager.cpp PicoPNG.cpp ResourceManage.cpp Sprite.cpp SpriteBatch.cpp TextureCache.cpp Timing.cpp Window.cpp
+         Window.cpp
+         Timing.cpp
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\timing.cpp(30): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\timing.cpp(46): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\timing.cpp(49): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+         TextureCache.cpp
+         SpriteBatch.cpp
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\spritebatch.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\spritebatch.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\spritebatch.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+         Sprite.cpp
+         ResourceManage.cpp
+         PicoPNG.cpp
+         IOManager.cpp
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\iomanager.cpp(19): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\sarke\documents\visual studio 2013\projects\my1stgame\bengine\iomanager.cpp(24): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         InputManager.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+         ErrorMess.cpp
+         Camera2d.cpp
+         Bengine.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\Bengine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib /NOLOGO Debug\Bengine.obj
+         Debug\Camera2d.obj
+         Debug\ErrorMess.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\PicoPNG.obj
+         Debug\ResourceManage.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Bengine.vcxproj -> C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Debug\Bengine.lib
+     1>Done Building Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Bengine\Bengine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.10

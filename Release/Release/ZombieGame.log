@@ -1,0 +1,43 @@
+﻿Build started 16-Jul-17 7:57:27 PM.
+     1>Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\ZombieGame\ZombieGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
+         MainGame.cpp
+     1>MainGame.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(80): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>MainGame.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(129): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(135): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(187): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(210): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(230): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(305): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+     1>MainGame.cpp(351): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(359): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(367): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Release\ZombieGame.exe" /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib Bengine.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Release\ZombieGame.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Release\ZombieGame.lib" /MACHINE:X86 /SAFESEH Release\Agent.obj
+         Release\Bullet.obj
+         Release\Gun.obj
+         Release\Human.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\MainGame.obj
+         Release\Player.obj
+         Release\Zombie.obj
+         Generating code
+         Finished generating code
+         ZombieGame.vcxproj -> C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\Release\ZombieGame.exe
+     1>Done Building Project "C:\Users\sarke\documents\visual studio 2013\Projects\my1stgame\ZombieGame\ZombieGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.52
